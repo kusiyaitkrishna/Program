@@ -1,5 +1,4 @@
 # Program
-This repository for the program that is written in c , c++ , python ..
-Here is c ++ program to calculate age as according to the date of birth of user and present day. This program is based on function and this is more convenience for use
-#All credit goes to Kusiyait Krishna who has written this program 
-#For more information you can visit his official website krishnakusiyait.com.np
+This repository for uploading program that is written in C ,C++ ,C sharp ,Python and more.
+#Mainly this can help all those who are interested to write program for first time 
+
