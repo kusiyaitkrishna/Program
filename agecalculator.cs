@@ -75,6 +75,17 @@ namespace converter
                 d3 = d2 - d1;
                 Console.WriteLine(y3 + "  Year\t" + m3 + "  Month\t" + d3 + "  Days");
             }
+               else if ((d1 == d2) && (m1 > m2))
+            {
+                m2 += 12;
+                y2 -= 1;
+              
+                //calculation
+                y3 = y2 - y1;
+                m3 = m2 - m1;
+                d3 = d2 - d1;
+                Console.WriteLine(y3 + "  Year\t" + m3 + "  Month\t" + d3 + "  Days");
+            }
             else
             {
                 //calculation
