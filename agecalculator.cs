@@ -102,7 +102,6 @@ namespace converter
    
     static void Main(string[] args)
     {
-            Console.WriteLine("Hey priyanka good morning");
             
             agecalculator();
          
