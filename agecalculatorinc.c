@@ -56,6 +56,31 @@ int calculateage()
         d3 = d2 - d1;
         printf("your age %d year \t %d month \t %d day", y3, m3, d3);
     }
+      else if ((d1 > d2) && (m1 == m2))
+            {
+                m2 += 12;
+                y2 -= 1;
+                d2 += 30;
+                m2 -= 1;
+                //calculation
+                y3 = y2 - y1;
+                m3 = m2 - m1;
+                d3 = d2 - d1;
+                printf("your age %d year \t %d month \t %d day", y3, m3, d3);
+                
+            }
+        else if ((d1 == d2) && (m1 > m2))
+            {
+                m2 += 12;
+                y2 -= 1;
+                
+                //calculation
+                y3 = y2 - y1;
+                m3 = m2 - m1;
+                d3 = d2 - d1;
+                printf("your age %d year \t %d month \t %d day", y3, m3, d3);
+                
+            }
     else
     {
         //calculation
